@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 251, 244);
+}
+
+header {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav>a {
+    color: rgb(78, 77, 77);
+    padding-left: 50px;
+}
+
+nav>a:hover {
+    font-weight: 700;
+}
+
+hr {
+    border-bottom: 2px solid rgb(93, 2, 168);
+    width: 700px;
+    margin: auto;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMeText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 600px;
+
+}
+
+.aboutMeText>p {
+    color: rgb(78, 77, 77);
+}
+
+.myImage {
+    width: 300px;
+    height: 400px 0px;
+    background-size: cover;
+    margin: 30px 50px 0px;
+}
+
+
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    border: 1px solid rgb(93, 2, 168);
+    position: relative;
+    left: 42%;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 1.4em;
+}
+
+.buttonGitHub:hover {
+    background-image: linear-gradient(to bottom, rgb(92, 7, 92), purple);
+    color: white;
+    border: 1px solid purple;
+}
+
+.buttonLinkedin:hover {
+    background-image: linear-gradient(to bottom, #06407a, #0A66C2);
+    color: white;
+    border: 1px solid #0A66C2;
+}
+
+.projetos>h2 {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border-bottom: 3px solid purple;
+}
+
+.imgRigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 80px;
+}
+
+.imgRigth h3 {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.imgRigth .h3 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.imgRigth p {
+
+    width: 500px;
+    margin: 20px;
+    text-align: justify;
+    color: rgb(78, 77, 77);
+}
+
+.buttons-rigth {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+.buttons-left {
+    display: flex;
+    padding-top: 20px;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.imgRigth>img {
+    object-fit: cover;
+    border: 1px solid purple;
+    letter-spacing: 8px;
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.fa-code {
+    font-size: 25px;
+}
+
+.fa-eye {
+    font-size: 25px;
+}
+
+.fa-eye:hover {
+    font-size: 30px;
+}
+
+.fa-code:hover {
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.myContacts {
+    font-size: 17px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySocials {
+    margin: 15px;
+    letter-spacing: 1px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(78, 77, 77);
+}
+
+.animate-scroll {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: animate-scroll 0.5s ease forwards;
+}
+
+.animate-scroll:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.animate-scroll:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.animate-scroll:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes animate-scroll {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
