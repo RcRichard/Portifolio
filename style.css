@@ -10,11 +10,28 @@ body {
     background-color: rgb(255, 251, 244);
 }
 
-header {
+header{
+  width: 100%;
+
+}
+
+.headerContain {
     display: flex;
+    flex-wrap: wrap;
     color: black;
     justify-content: space-around;
     margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:360px){
+    .headerContain{
+        width: 230px;
+    }
+
+    nav{
+        display: flex;
+    }
 }
 
 nav {
